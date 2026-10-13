@@ -1,0 +1,30 @@
+
+{
+  "employees": [
+    {
+      "id": 1,
+      "email": "employee@company.com",
+      "password": "123456"
+    },
+    {
+      "id": 2,
+      "email": "manager@company.com",
+      "password": "123456"
+    },
+    {
+      "id": 3,
+      "email": "admin@company.com",
+      "password": "123456"
+    },
+    {
+      "id": 4,
+      "email": "rahul@company.com",
+      "password": "123456"
+    },
+    {
+      "id": 5,
+      "email": "priya@company.com",
+      "password": "123456"
+    }
+  ]
+}

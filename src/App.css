@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+}
+
+.login-page {
+    height: 100vh;
+}
+
+.login-container {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 1050px;
+    min-height: 540px;
+    background: #fff;
+    box-shadow: 0 12px 35px rgba(42, 87, 145, 0.13);
+}
+
+.login-left {
+    background: linear-gradient(145deg, #edf6ff, #d9ecff);
+    border-right: 1px solid #d8e8f8;
+}
+
+.brand-logo {
+    color: #0874f9;
+    font-size: 27px;
+}
+
+.brand-title {
+    color: #19375f;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.brand-subtitle {
+    color: #637b98;
+    font-size: 10px;
+}
+
+.employee-illustration {
+    flex: 1;
+    min-height: 0;
+    padding: 12px 0;
+}
+
+.employee-illustration img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.left-description {
+    flex-shrink: 0;
+    color: #244b7d;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.login-right {
+    min-width: 0;
+    background: #fff;
+}
+
+.login-content {
+    max-width: 390px;
+    margin: 0 auto;
+}
+
+.welcome-title {
+    color: #19375f;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.welcome-subtitle {
+    color: #71819a;
+    font-size: 11px;
+}
+
+.form-label {
+    margin-bottom: 6px;
+    color: #28466e;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.input-group-text,
+.form-control {
+    height: 39px;
+    border-color: #d7e4f4;
+    color: #28466e;
+    background: #fff;
+    font-size: 11px;
+}
+
+.input-group-text {
+    color: #53769f;
+}
+
+.password-toggle {
+    cursor: pointer;
+}
+
+.login-button {
+    height: 39px;
+    background: linear-gradient(100deg, #0867f9, #287ef5);
+    font-size: 12px;
+}
+
+.contact-text {
+    color: #637895;
+    font-size: 10px;
+}
+
+.contact-HR {
+    color: #0874f9;
+    text-decoration: none;
+}
+
+.demo-section {
+    border-color: #dfebf8 !important;
+    background: #f9fbff;
+}
+
+.demo-heading {
+    color: #28466e;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.demo-avatar {
+    width: 34px;
+    height: 34px;
+    color: #1765c5;
+    background: #e0edff;
+    font-size: 13px;
+}
+
+.demo-role {
+    color: #28466e;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.demo-credentials {
+    color: #7b8ba4;
+    font-size: 9px;
+}
