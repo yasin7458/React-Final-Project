@@ -1,7 +1,9 @@
+import { LogOut } from "../utils/validation";
+
 function EmployeeDashboard() {
-  return (
-    <h1>EmployeeDashboard</h1>
-  )
+    return (
+        <button onClick={LogOut}>Logout</button>
+    );
 }
 
-export default EmployeeDashboard
+export default EmployeeDashboard;

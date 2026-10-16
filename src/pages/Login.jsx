@@ -2,11 +2,30 @@ import { useState } from "react";
 import { FaCalendarAlt, FaEnvelope, FaLock, FaEye, FaEyeSlash, FaUser } from "react-icons/fa";
 
 import Image from "../assets/Login-page.png";
+import { useNavigate } from "react-router-dom";
+import axios from "axios";
 
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
+
+  const API = "http://localhost:3000/employees";
+  const navigate = useNavigate();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    axios.get(API)
+      .then((res) => {
+        res.data.map((item) => {
+          if (item.email === email && item.password === password) {
+            localStorage.setItem("token", JSON.stringify(item));
+            navigate("/");
+          }
+        });
+      });
+  };
 
   return (
     <main className="login-page container-fluid d-flex justify-content-center align-items-center p-3">
@@ -44,7 +63,7 @@ function Login() {
               <p className="welcome-subtitle mb-0">Login to your account to continue</p>
             </div>
 
-            <form>
+            <form onSubmit={handleSubmit}>
 
               <div className="mb-3">
                 <label htmlFor="email" className="form-label fs-6">Email Address :</label>
