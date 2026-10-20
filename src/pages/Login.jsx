@@ -16,15 +16,17 @@ function Login() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    axios.get(API)
-      .then((res) => {
-        res.data.map((item) => {
-          if (item.email === email && item.password === password) {
-            localStorage.setItem("token", JSON.stringify(item));
-            navigate("/");
-          }
+    (async () => {
+      await axios.get(API)
+        .then((res) => {
+          res.data.map((item) => {
+            if (item.email === email && item.password === password) {
+              localStorage.setItem("token", JSON.stringify(item));
+              navigate("/");
+            }
+          });
         });
-      });
+    })()
   };
 
   return (

@@ -1,30 +1,44 @@
-
 {
   "employees": [
     {
       "id": 1,
+      "name": "Priyush Nakrani",
       "email": "employee@company.com",
-      "password": "123456"
+      "password": "123456",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM-CXEhTU7-N2Lh2zDG6BnUdZ7i7VF3BE6kfMTgZzlwA&s=10",
+      "role": "Employee"
     },
     {
       "id": 2,
+      "name": "Rahul Patel",
       "email": "manager@company.com",
-      "password": "123456"
+      "password": "123456",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Up5zCECO8K2MR5FIkCX2fucVIBZSSLdG-VaBa5kfsQ&s=10",
+      "role": "Manager"
     },
     {
       "id": 3,
-      "email": "admin@company.com",
-      "password": "123456"
+      "name": "Vaisali User",
+      "email": "Vaisali@company.com",
+      "password": "123456",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKHPD0oWRF4HSWPOB8c8gRt8zJS83vuum-l83x2XruDg&s=10",
+      "role": "Admin"
     },
     {
       "id": 4,
-      "email": "rahul@company.com",
-      "password": "123456"
+      "name": "Rashmi Sharma",
+      "email": "rashmi@company.com",
+      "password": "123456",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKjnjsphMnLm9op_T6diIp_6yxN71SFYMb1n0forN72w&s=10",
+      "role": "Employee"
     },
     {
       "id": 5,
+      "name": "Priya Shah",
       "email": "priya@company.com",
-      "password": "123456"
+      "password": "priya123",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTvL47_PndENM3yL0QpdR3qL9GJI6VFCLQVkUZ1jhmLg&s=10",
+      "role": "Employee"
     }
   ]
 }

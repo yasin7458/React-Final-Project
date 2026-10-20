@@ -2,7 +2,6 @@ import { Route, Routes } from "react-router-dom"
 import Login from "./pages/Login"
 import EmployeeDashboard from "./pages/EmployeeDashboard"
 import { ProtectedRoute } from "./utils/validation"
-import "./App.css"
 
 function App() {
 
